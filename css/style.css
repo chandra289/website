@@ -1,0 +1,53 @@
+body{
+    padding:0;
+    margin:0;
+}
+header{
+    background-color: black;
+    padding:16px 0;
+}
+ul{
+    list-style-type: none;
+}
+ ul li{
+    display:inline;
+    
+    margin-left: 100px;
+    margin-right:130px ;
+    justify-content: center;
+ }
+ ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 16px;
+ }
+
+ #products{
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+ }
+
+ .product{
+    border:1px solid black;
+    align-items: center;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+ }
+  
+ .product img:hover{
+    box-shadow: 10px 10px;
+    background-color: white;
+     
+ }
+ 
+
+ footer{
+    background-color: black;
+    color: white;
+    padding:10px;
+    text-align: center;
+ }
